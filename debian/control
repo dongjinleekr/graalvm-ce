@@ -1,0 +1,42 @@
+Source: graalvm-ce-{base}
+Maintainer: Lee Dongjin <dongjin@apache.org>
+Section: devel
+Priority: optional
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.7
+Homepage: https://www.graalvm.org/
+
+Package: graalvm-ce-{base}
+Architecture: amd64
+Section: devel
+Priority: optional
+Depends: ca-certificates-java, java-common (>= 0.28)
+Recommends: libxt-dev, nodejs-doc
+Conflicts: nodejs-legacy
+Replaces: nodejs-legacy
+Provides: java2-runtime-headless, java5-runtime-headless, java6-runtime-headless, java7-runtime-headless, java8-runtime-headless, java-compiler, java-sdk, java2-sdk, java5-sdk, java6-sdk, java7-sdk, java8-sdk
+Description: GraalVM Community Edition ({base})
+ GraalVM is a universal virtual machine for running applications written
+ in JavaScript, Python, Ruby, R, JVM-based languages like Java, Scala,
+ Groovy, Kotlin, Clojure, and LLVM-based languages such as C and C++.
+ .
+ This package provides all common JDK tools, along with the following additional tools:
+ .
+ .Java Tools
+ .
+ .- jvisualvm: A visualvm implementation for GraalVM.
+ .
+ Javascrtipt Tools
+ .
+ .- js: A high performance implementation of the JavaScript programming language, Built on the GraalVM.
+ .- node: A nodejs implementation built on the GraalVM.
+ .- npm: A package manager for nodejs.
+ .
+ GraalVM Tools
+ .
+ .- gu: GraalVM Component Updater.
+ .- lli: Run LLVM bitcode files on the GraalVM's lli.
+ .- native-image: GraalVM native-image building tool.
+ .- polyglot: GraalVM Native polyglot launcher.
+ .- rebuild-images: Rebuilds native images in place.
+

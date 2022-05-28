@@ -1,0 +1,6 @@
+graalvm-ce-{base}.jinfo usr/lib/jvm
+graal-R usr/lib/jvm/graalvm-ce-{base}/bin
+graal-node usr/lib/jvm/graalvm-ce-{base}/bin
+graal-npm usr/lib/jvm/graalvm-ce-{base}/bin
+graal-npx usr/lib/jvm/graalvm-ce-{base}/bin
+graal-python usr/lib/jvm/graalvm-ce-{base}/bin
