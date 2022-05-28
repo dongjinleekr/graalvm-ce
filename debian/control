@@ -11,9 +11,7 @@ Architecture: amd64
 Section: devel
 Priority: optional
 Depends: ca-certificates-java, java-common (>= 0.28)
-Recommends: libxt-dev, nodejs-doc
-Conflicts: nodejs-legacy
-Replaces: nodejs-legacy
+Recommends: libxt-dev, nodejs-doc, r-doc-info, python3-doc
 Provides: java10-runtime-headless, java11-runtime-headless, java2-runtime-headless, java5-runtime-headless, java6-runtime-headless, java7-runtime-headless, java8-runtime-headless, java9-runtime-headless, java-compiler, java-sdk, java10-sdk, java11-sdk, java2-sdk, java5-sdk, java6-sdk, java7-sdk, java8-sdk, java9-sdk
 Description: GraalVM Community Edition (java11)
  GraalVM is a universal virtual machine for running applications written
@@ -29,8 +27,17 @@ Description: GraalVM Community Edition (java11)
  Javascrtipt Tools
  .
  .- js: A high performance implementation of the JavaScript programming language, Built on the GraalVM.
- .- node: A nodejs implementation built on the GraalVM.
- .- npm: A package manager for nodejs.
+ .- graal-node: A nodejs implementation built on the GraalVM.
+ .- graal-npm: A package manager for nodejs.
+ .- graal-npx: Executes npm package binaries.
+ .
+ .R Tools
+ .
+ .- graal-R: A GNU-compatible R runtime implementation built on the GraalVM.
+ .
+ .Python Tools
+ .
+ .- graal-python: A high-performance, Python 3.8 compliant runtime implementation built on the GraalVM.
  .
  GraalVM Tools
  .
