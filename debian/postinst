@@ -1,15 +1,15 @@
 #!/bin/sh
-# postinst script for graalvm-ce-{base}
+# postinst script for graalvm-ce-java11
 #
 # see: dh_installdeb(1)
 
 set -e
 
 version='22.1.0'
-download_url="https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-${version}/graalvm-ce-{base}-linux-amd64-${version}.tar.gz"
+download_url="https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-${version}/graalvm-ce-java11-linux-amd64-${version}.tar.gz"
 multiarch=x86_64-linux-gnu
 priority=1089
-basedir=/usr/lib/jvm/graalvm-ce-{base}
+basedir=/usr/lib/jvm/graalvm-ce-java11
 mandir=$basedir/man
 srcext=1.gz
 dstext=1.gz
@@ -30,10 +30,10 @@ jdk_tools='jconsole'
 case "$1" in
     configure)
     
-    wget $download_url --directory-prefix=/tmp/graalvm-ce-{base}/
-    tar zxvf /tmp/graalvm-ce-{base}/graalvm-ce-{base}-linux-amd64-$version.tar.gz -C /tmp/graalvm-ce-{base}/
-    cp -r /tmp/graalvm-ce-{base}/graalvm-ce-{base}-${version}/* $basedir
-    rm -rf /tmp/graalvm-ce-{base}
+    wget $download_url --directory-prefix=/tmp/graalvm-ce-java11/
+    tar zxvf /tmp/graalvm-ce-java11/graalvm-ce-java11-linux-amd64-$version.tar.gz -C /tmp/graalvm-ce-java11/
+    cp -r /tmp/graalvm-ce-java11/graalvm-ce-java11-${version}/* $basedir
+    rm -rf /tmp/graalvm-ce-java11
     
     # update-alternative case 1: no additional parameter is given.
     if [ -z "$2" ]; then

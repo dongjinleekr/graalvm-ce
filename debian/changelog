@@ -1,4 +1,4 @@
-graalvm-ce-{base} (22.1.0-0) focal; urgency=medium
+graalvm-ce-java11 (22.1.0-0) focal; urgency=medium
 
   * Initial release
 

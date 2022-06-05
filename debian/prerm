@@ -1,11 +1,11 @@
 #!/bin/sh
-# prerm script for graalvm-ce-{base}
+# prerm script for graalvm-ce-java11
 #
 # see: dh_installdeb(1)
 
 set -e
 
-basedir=/usr/lib/jvm/graalvm-ce-{base}
+basedir=/usr/lib/jvm/graalvm-ce-java11
 
 # summary of how this script can be called:
 #        * <prerm> `remove'
