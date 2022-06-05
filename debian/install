@@ -4,3 +4,6 @@ graal-node usr/lib/jvm/graalvm-ce-{base}/bin
 graal-npm usr/lib/jvm/graalvm-ce-{base}/bin
 graal-npx usr/lib/jvm/graalvm-ce-{base}/bin
 graal-python usr/lib/jvm/graalvm-ce-{base}/bin
+graal-native-image usr/lib/jvm/graalvm-ce-{base}/bin
+graal-clang usr/lib/jvm/graalvm-ce-{base}/bin
+graal-clang++ usr/lib/jvm/graalvm-ce-{base}/bin
