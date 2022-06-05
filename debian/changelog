@@ -1,5 +1,5 @@
-graalvm-ce-{base} (22.1.0-0) focal; urgency=medium
+graalvm-ce-java17 (22.1.0-1) focal; urgency=medium
 
   * Initial release
 
- -- Lee Dongjin <dongjin@apache.org>  Wed, 21 May 2022 15:04:31 +0900
+ -- Lee Dongjin <dongjin@apache.org>  Mon, 6 Jun 2022 06:45:31 +0900
