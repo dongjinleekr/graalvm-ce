@@ -1,4 +1,9 @@
-graalvm-ce-java11 (22.1.0-1) focal; urgency=medium
+graalvm-ce-java11 (22.1.0-2) focal; urgency=medium
+
+  * Release 22.1.0-2
+
+  - Fix HOME directory logic in graal-variant scrtipts: resolves conflict when using jenv.
+  - Add graal-wasm
 
   * Release 22.1.0-1
 
