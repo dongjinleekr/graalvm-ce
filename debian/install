@@ -7,3 +7,4 @@ graal-python usr/lib/jvm/graalvm-ce-java11/bin
 graal-native-image usr/lib/jvm/graalvm-ce-java11/bin
 graal-clang usr/lib/jvm/graalvm-ce-java11/bin
 graal-clang++ usr/lib/jvm/graalvm-ce-java11/bin
+graal-wasm usr/lib/jvm/graalvm-ce-java11/bin
