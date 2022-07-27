@@ -3,7 +3,7 @@ graalvm-ce
 
 This repository provides the contents of the online packages for Oracle's [GraalVM Community Edition](https://github.com/oracle/graal), which is serviced via [Launchpad PPA repository](https://launchpad.net/graalvm-ce) and accesable with `apt` package tool.
 
-As of present, the latest version is `22.1.0` and java11, java17 based packages are provided.
+As of present, the latest version is `22.2.0` and java11, java17 based packages are provided.
 
 These packages download appropriate GraalVM distribution on each installation from github; For the offline packages which contains the whole contents in the package, please refer [here](https://github.com/dongjinleekr/graalvm-ce-deb).
 
